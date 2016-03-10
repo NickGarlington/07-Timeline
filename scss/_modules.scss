@@ -1,0 +1,50 @@
+
+
+.date {
+  color: #D5E8F2;
+  font-size: 12px;
+  text-align: right;
+}
+
+
+.time {
+  color: #89C0E8;
+  font-size: 2rem;
+  text-align: right;
+}
+
+h1 {
+border-bottom: 1px solid #fff;
+padding: 20px;
+margin-top: 0;
+}
+
+p {
+  text-align: center;
+  margin: 20px 10px 0 10px;
+}
+
+.timeline-bar {
+  height: 255px;
+  width: 31px;
+  position: relative;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #5EA5D4;
+  border: 3px solid #B8DCF5;
+}
+.thick-line {
+  width: 6px;
+  height: 310px;
+  background-color: #B8DCF5;
+  position: absolute;
+  margin: 0 0 0 12px;
+}
+
+.top:nth-child(even) .time {
+  color: #5096C6;
+}
